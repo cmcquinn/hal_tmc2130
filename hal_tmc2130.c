@@ -27,3 +27,17 @@
 
 // tmc2130 register addresses and configuration values
 #include "tmc2130_defs.h"
+
+MODULE_AUTHOR("Cameron McQuinn");
+MODULE_DESCRIPTION("Driver for programming the TMC2130 stepper driver over SPI");
+MODULE_LICENSE("GPL v2");
+
+int rtapi_app_main(void)
+{
+
+}
+
+void rtapi_app_exit(void)
+{
+
+}
